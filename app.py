@@ -28,8 +28,7 @@ st.set_page_config(page_title="Video Analyzer & Quiz Generator", page_icon="📹
 st.title("📹 Video Analyzer & Quiz Generator")
 st.markdown(
     """
-    Upload a video and let **Gemini** summarize it first.  
-    Then, generate a **well-formatted quiz** based on that summary.
+    Upload your video 
     """
 )
 
@@ -197,4 +196,5 @@ if st.session_state.quiz_text:
         """,
         unsafe_allow_html=True
     )
+
     
